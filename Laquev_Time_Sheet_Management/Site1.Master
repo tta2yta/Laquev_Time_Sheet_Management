@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Laquev_Time_Sheet_Management.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 127%;
+            height:100%;
+        }
+        .auto-style2 {
+            height: 126px;
+            width: 100%;
+        }
+        .auto-style3 {
+            height: 408px;
+            width: 15%;
+        }
+        .auto-style4 {
+            height: 408px;
+             width: 15%;
+        }
+        .auto-style5 {
+            height: 408px;
+             width: 70%;
+        }
+        .auto-style6 {
+            height: 44px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+
+        <table cellpadding="0"  cellspacing="0" class="auto-style1" aria-expanded="false">
+            <tr>
+                <td colspan ="3" class="auto-style2" style="background-color: #333333">
+                   <div style="background-color: #0099CC; height: 7px;">
+       
+                       <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/logo.jpg" style="z-index: 1; left: 154px; top: 33px; position: absolute; width: 679px; height: 36px" />
+                       <asp:Image ID="Image2" runat="server" ImageUrl="~/Images/logo1.jpg" style="z-index: 1; left: 885px; top: 85px; position: absolute; width: 59px; height: 53px" />
+       
+    </div>
+
+                </td>
+
+            </tr>
+            <tr>
+                <td class="auto-style4" style="background-color: #CCCCCC" ></td>
+                <td class="auto-style5" >
+         
+
+                     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        <div style="height: 696px"></div>
+        </asp:ContentPlaceHolder></td>
+                <td class="auto-style3" style="background-color: #C0C0C0" ></td>
+            </tr>
+            <tr>
+                <td colspan ="3" class="auto-style6" style="background-color: #3366FF">
+                   
+              
+&nbsp; <span style="font-size:10.0pt;line-height:115%;
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-bidi-font-family:
+&quot;Times New Roman&quot;;mso-ansi-language:EN-US;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA"><strong>Raza Building, 5</strong><sup><strong>th</strong></sup><strong> Floor, Asmara, Eritrea</strong><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong> </strong></span><strong>Tele: 112413/08213083&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      <a href ="www.Laquevsolutions.com">www.Laquevsolutions.com</a></strong></span></td> </tr>
+        </table>
+
+       
+    </form>
+</body>
+</html>
